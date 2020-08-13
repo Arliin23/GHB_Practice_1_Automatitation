@@ -34,7 +34,7 @@ public class PracticeGBH {
         //HOME PAGE
 
         //Comparing the title of the page to know if you are in the home page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("GBH")) {
             System.out.print(" Estas en la página principal\n");
         } else {
@@ -52,7 +52,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the Innovation Squad page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Innovation Squad")) {
             System.out.print(" Estas en la página de Innovation Squad\n");
         } else {
@@ -70,7 +70,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the IT Business Transformation page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("VCIO")) {
             System.out.print(" Estás en la página de IT Bussiness Trasnfomation Page\n");
         } else {
@@ -88,7 +88,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the Custom Software Development page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Custom Software Development")) {
             System.out.print(" Estas en la página de Custom Software Development\n");
         } else {
@@ -106,7 +106,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the Agent of Change Staff Augmentation page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Staff Augmentation")) {
             System.out.print(" Estas en la página de Agent of Change Staff Augmentation\n");
         } else {
@@ -125,7 +125,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the IT Support Service - IT FOUNDATION page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Soporte de TI")) {
             System.out.print(" Estas en la página de Soporte de TI\n");
         } else {
@@ -144,7 +144,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the IT Support Service - IT Protection & Security page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("IT Protection & Support")) {
             System.out.print(" Estas en la página de IT Protection & Support\n");
         } else {
@@ -163,7 +163,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the IT Support Service
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Servicios de soporte de TI")) {
             System.out.print(" Estas en la página de Servicios de soporte de TI\n");
         } else {
@@ -181,7 +181,7 @@ public class PracticeGBH {
         clickButton(genericBtn);
 
         //Comparing title of the page to know if you are in the Network Solutions
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Network Solutions")) {
             System.out.print(" Estas en la página de Network Solutions\n");
         } else {
@@ -197,7 +197,7 @@ public class PracticeGBH {
         genericBtn = driver.findElement(By.cssSelector("#menu-item-4133 > a > span.menu-item__text"));
         clickButton(genericBtn);
         //Comparing title of the page to know if you are in the About Us page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Sobre Nosotros")) {
             System.out.print(" Estas en la página Sobre Nosotros\n");
         } else {
@@ -212,7 +212,7 @@ public class PracticeGBH {
         genericBtn = driver.findElement(By.cssSelector("#menu-item-4134 > a > span.menu-item__text"));
         clickButton(genericBtn);
         //Comparing title of the page to know if you are in the Lo que nos diferencia page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Lo que nos diferencia")) {
             System.out.print(" Estas en la página Lo que nos diferencia\n");
         } else {
@@ -227,7 +227,7 @@ public class PracticeGBH {
         genericBtn = driver.findElement(By.cssSelector("#menu-item-4664 > a > span.menu-item__text"));
         clickButton(genericBtn);
         //Comparing title of the page to know if you are in the Blog page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Blog")) {
             System.out.print(" Estas en la página Blog\n");
         } else {
@@ -239,7 +239,7 @@ public class PracticeGBH {
         genericBtn = driver.findElement(By.cssSelector("#menu-item-2979 > a > span.menu-item__text"));
         clickButton(genericBtn);
         //Comparing title of the page to know if you are in the Casos de estudio page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Casos de estudios")) {
             System.out.print(" Estas en la página Casos de estudios\n");
         } else {
@@ -251,7 +251,7 @@ public class PracticeGBH {
         genericBtn = driver.findElement(By.cssSelector("#menu-item-2980 > a > span.menu-item__text"));
         clickButton(genericBtn);
         //Comparing title of the page to know if you are in the JOBS page
-        homeTitle = driver.getTitle().toString();
+        homeTitle = driver.getTitle();
         if (homeTitle.contains("Empleos")) {
             System.out.print(" Estas en la página Empleos\n");
         } else {
